@@ -10,9 +10,7 @@ This repository contains the software testing project for an online banking syst
 - [Testing Framework](#testing-framework)
 - [Classes and Methods](#classes-and-methods)
 - [Test Cases](#test-cases)
-- [How to Run](#how-to-run)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
