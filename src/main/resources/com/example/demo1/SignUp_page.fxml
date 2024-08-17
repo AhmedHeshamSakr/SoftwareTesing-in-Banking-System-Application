@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane style="-fx-background-color: #FAF1E4 #FAF1E4;" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.SignUpPage">
+   <children>
+      <AnchorPane maxHeight="0.0" maxWidth="0.0" minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="0.0" styleClass="AnchorPane" stylesheets="@style.css">
+         <children>
+            <Button layoutX="489.0" layoutY="681.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="45.0" prefWidth="127.0" text="Sign Up" />
+            <Label layoutX="145.0" layoutY="479.0" prefHeight="37.0" prefWidth="164.0" text="User Name:" />
+            <TextField fx:id="userName" layoutX="335.0" layoutY="476.0" prefHeight="42.0" prefWidth="466.0" />
+            <Label layoutX="147.0" layoutY="541.0" prefHeight="37.0" prefWidth="164.0" text="Phone Number:" />
+            <TextField fx:id="phone" layoutX="335.0" layoutY="536.0" prefHeight="44.0" prefWidth="468.0" />
+            <Label layoutX="139.0" layoutY="421.0" prefHeight="37.0" prefWidth="164.0" text=" National ID:" />
+            <TextField fx:id="nID" layoutX="333.0" layoutY="415.0" prefHeight="44.0" prefWidth="471.0" />
+            <Label layoutX="142.0" layoutY="362.0" prefHeight="37.0" prefWidth="164.0" text=" Full Name:" />
+            <TextField fx:id="name" layoutX="333.0" layoutY="356.0" prefHeight="42.0" prefWidth="473.0" />
+            <Label layoutX="149.0" layoutY="607.0" prefHeight="37.0" prefWidth="164.0" text="Password:" />
+            <TextField fx:id="password" layoutX="334.0" layoutY="601.0" prefHeight="47.0" prefWidth="466.0" />
+            <Button layoutX="816.0" layoutY="852.0" mnemonicParsing="false" onAction="#switchToMain" prefHeight="32.0" prefWidth="75.0" text=" Back" />
+            <ImageView fx:id="myI" fitHeight="266.0" fitWidth="293.0" layoutX="374.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Glow />
+               </effect>
+               <Image url="@../../../../../../../demo1/img/BKK.png" />
+            </ImageView>
+            <Label id="ERROR" fx:id="fMessage" layoutX="217.0" layoutY="757.0" prefHeight="33.0" prefWidth="405.0" text="Label" textFill="RED">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <StackPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </StackPane.margin>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+</StackPane>

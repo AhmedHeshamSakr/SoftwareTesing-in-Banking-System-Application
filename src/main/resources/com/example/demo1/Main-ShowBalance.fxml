@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane style="-fx-background-color: #FAF1E4 #FAF1E4;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.MainShowBalance">
+   <children>
+      <AnchorPane maxHeight="0.0" maxWidth="0.0" minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="0.0" styleClass="AnchorPane" stylesheets="@style.css">
+         <children>
+            <Button layoutX="807.0" layoutY="818.0" mnemonicParsing="false" onAction="#switchToMainMenu" prefHeight="36.0" prefWidth="111.0" text="Back">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="93.0" layoutY="312.0" prefHeight="48.0" prefWidth="253.0" text=" Current Balance" textAlignment="CENTER">
+               <font>
+                  <Font name="Apple Braille" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="ShowB" layoutX="168.0" layoutY="400.0" prefHeight="61.0" prefWidth="728.0" stylesheets="@style.css" text="hbhb" textAlignment="CENTER" textFill="#04afff">
+               <font>
+                  <Font name="Apple Braille" size="28.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="myI" fitHeight="134.0" fitWidth="123.0" layoutX="836.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <Glow />
+               </effect>
+               <Image url="@../../../../../../../demo1/img/BKK.png" />
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

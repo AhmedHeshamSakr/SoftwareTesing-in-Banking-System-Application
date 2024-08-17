@@ -1,0 +1,67 @@
+/* Style for Label */
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #435334;
+    -fx-background-color:#FAF1E4;
+    -fx-padding: 5px 10px;
+    -fx-border-width: 0px;
+    -fx-border-color:#435334;
+    -fx-border-radius: 3px;
+
+}
+
+/* Style for AnchorPane */
+.AnchorPane {
+    -fx-background-color: #FAF1E4;
+    -fx-border-width: 0px;
+    -fx-border-color: #435334;
+    -fx-border-radius: 0px;
+    -fx-padding: 10px;
+    -fx-pref-width: 1000px;
+    -fx-pref-height: 950px;
+    -fx-alignment: center;
+    -fx-justify-content: center;
+    -fx-min-width: 1000px;
+    -fx-min-height: 950px;
+    -fx-max-width: 1000px;
+    -fx-max-height: 950px;
+
+}
+
+/* Style for Button */
+.button {
+    -fx-background-color: #9EB384;
+    -fx-text-fill:#FAF1E4;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-width: 0;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-min-width: 100px;
+    -fx-min-height: 40px;
+}
+
+/* Style for TextField */
+.text-field {
+    -fx-background-color: #CEDEBD;
+    -fx-border-width: 0px;
+    -fx-border-color: #435334;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #435334;
+    -fx-alignment: center-left;
+}
+#ERROR{
+-fx-text-fill: #C21010;
+}
+#HAI{
+-fx-font-size: 32px;
+-fx-text-fill: #224B0C;
+}
+#Table{
+-fx-background-color: #CEDEBD;
+-fx-font-size: 20px;
+-fx-text-fill: #435334;
+}
